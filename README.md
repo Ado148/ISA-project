@@ -57,3 +57,6 @@ sudo ./dhcp-stats -i eth0 192.168.1.0/24 172.16.32.0/24 192.168.0.0/22 192.168.6
 
  ### Známe chyby
  V prípade spustenia programu s IP prefixom napr.: 192.168.0.0/32 program vracia pocet max-hosts -1, čo je samorejme zle. Dôvodom je to že program používa na spočítanie maximálneho počtu hostov vzroec 2^(32-n)-2, preto vzikla -1.
+
+
+#### SCORE 20/20
